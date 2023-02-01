@@ -1,0 +1,25 @@
+textarea {
+	width: 90%;
+	height: 10vh;
+	display: block;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.output {
+	border: 1px solid black;
+	margin: 1rem;
+	padding: 1rem;
+	width: 90%;
+	height: 10vh;
+	display: block;
+}
+
+button {
+	margin: 1rem;
+	display: block;
+}
+
+.outputHeading {
+	margin: 1rem;
+}

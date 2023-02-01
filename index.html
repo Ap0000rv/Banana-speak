@@ -8,20 +8,99 @@
 		<link rel="stylesheet" href="/style.css" />
 	</head>
 	<body>
-		<nav class="outputHeading">Talk Banana</nav>
+		<div class="header">
+			<img class="img01" src="/minions-9703.png" />
+			<h1 class="navHeading">Talk Banana</h1>
+			<img class="img02" src="/minions-9702.png" />
+		</div>
+		<div class="container">
+			<textarea
+				name=""
+				id="txt-input"
+				placeholder="Enter text in English and it will be converted into BANANA"></textarea>
 
-		<textarea
-			name=""
-			id="txt-input"
-			cols="30"
-			rows="10"
-			placeholder="Enter text in English and it will be converted into BANANA"></textarea>
+			<button id="btn-translate">Translate</button>
 
-		<button id="btn-translate">Translate</button>
-
-		<div class="outputHeading">Output will show here👇🏻</div>
-		<div class="output" id="output-box"></div>
-
+			<div class="outputHeading">Output will show here👇🏻</div>
+			<div class="output" id="output-box"></div>
+		</div>
+		<footer>
+			likhna hai isme...Kya likhna hai wo soche nhi hai but sochege
+		</footer>
 		<script src="/app.js"></script>
 	</body>
 </html>
+
+<!-- 
+:root{
+    --primary:#F2C94C;
+}
+body{
+margin: 0px;
+font-family: 'Source Serif Pro', serif;
+}
+textarea{
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    height: 20vh;
+    margin: 2px;
+
+}
+
+.output-container{
+    box-sizing: border-box;
+    margin: 2px;
+
+    width: 100%;
+    height: 20vh;
+    display: block;
+    padding: 1rem;
+    border: 1px solid black;
+}
+button{
+   background-color: var(--primary);
+   border: none;
+   padding: 10px;
+    font-size: large;
+    margin: 2px;
+
+
+}
+.heading{
+margin: 0px;
+padding: 20px;
+margin-bottom: 30px;
+    background-color: var(--primary);
+    text-align: center;
+    color: white;
+}
+
+.cont{
+    margin: auto;
+    max-width: 600px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    height: 12vh;
+    background-color: var(--primary);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+img{
+    display: inline;
+    width: 250px;
+    height: 250px;
+} -->
